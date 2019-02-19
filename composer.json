@@ -1,1 +1,24 @@
 
+{
+  "name": "codexten/yii-mailjet",
+  "description": "Yii mailjet integration",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\mailjet\\": "src"
+    }
+  },
+  "require": {
+    "mailjet/mailjet-apiv3-php": "v1.3.0",
+    "codexten/yii-mailqueue": "2.0.*"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "params": "src/config/params.php",
+      "mailer": "src/config/mailer.php"
+    }
+  }
+}
