@@ -1,4 +1,3 @@
-
 {
   "name": "codexten/yii-mailjet",
   "description": "Yii mailjet integration",
@@ -16,7 +15,7 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
+    "config-plugin": {
       "params": "src/config/params.php",
       "mailer": "src/config/mailer.php"
     }
